@@ -124,6 +124,7 @@ rules:
   - RULE-SET,private_domain,直连
   - RULE-SET,appleai,🤖 Intelligent
   - RULE-SET,ai,🤖 Intelligent
+  - RULE-SET,ai-us,🤖 Intelligent
   - RULE-SET,paypal_domain,🏦 USBank
   - RULE-SET,meta_domain,📱 美区社媒
   - RULE-SET,whatsapp_domain,📱 美区社媒
@@ -179,7 +180,8 @@ rule-providers:
   tiktok_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tiktok.mrs"}
   geolocation-!cn: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.mrs"}
   cn_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.mrs"}
-  
+
+  ai-us: { <<: *class, url: "https://raw.githubusercontent.com/LM4C/openclash/refs/heads/main/Intelligent-US.list"}
   appleai: { <<: *class, url: "https://raw.githubusercontent.com/LM4C/openclash/refs/heads/main/AppleIntelligent.list"}
   linkedin_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/linkedin.mrs"}
   twitter_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/twitter.mrs"}
