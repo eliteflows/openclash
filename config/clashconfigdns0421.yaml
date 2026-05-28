@@ -137,13 +137,13 @@ rules:
   - RULE-SET,sony_domain,🎮 游戏平台
   - RULE-SET,nintendo_domain,🎮 游戏平台
   - RULE-SET,netflix_domain,🎥 网剧平台
+  - RULE-SET,github_domain,🚀 国外流媒体
   - RULE-SET,google_domain,📢 Google
   - RULE-SET,onedrive_domain,⛵️ OneDrive
   - RULE-SET,microsoft_domain,Ⓜ️ Microsoft
   - RULE-SET,tiktok_domain,🎵 TikTok
   - RULE-SET,apple_domain,直连
   - RULE-SET,youtube_domain,🚀 国外流媒体
-  - RULE-SET,github_domain,🚀 国外流媒体
   - DOMAIN-SUFFIX,qichiyu.com,🌍 国外网站
   - RULE-SET,proxylite,🌍 国外网站
   - RULE-SET,apple_ip,直连
