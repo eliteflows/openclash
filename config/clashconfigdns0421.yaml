@@ -123,6 +123,7 @@ rules:
   - RULE-SET,private_ip,直连,no-resolve
   - RULE-SET,private_domain,直连
   - RULE-SET,appleai,🤖 Intelligent
+  - RULE-SET,anthropic_domain,🤖 Intelligent
   - RULE-SET,ai,🤖 Intelligent
   - RULE-SET,ai-us,🤖 Intelligent
   - RULE-SET,paypal_domain,🏦 USBank
@@ -183,6 +184,7 @@ rule-providers:
 
   ai-us: { <<: *class, url: "https://raw.githubusercontent.com/LM4C/openclash/refs/heads/main/Intelligent-US.list"}
   appleai: { <<: *class, url: "https://raw.githubusercontent.com/LM4C/openclash/refs/heads/main/AppleIntelligent.list"}
+  anthropic_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/anthropic.mrs"}
   linkedin_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/linkedin.mrs"}
   twitter_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/twitter.mrs"}
   x_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/x.mrs"}
