@@ -1,0 +1,8 @@
+# NAME: CN-domain
+# AUTHOR: LM4C
+# UPDATED: 2026-06-19
+
+IP-CIDR,43.172.73.168/32
+DOMAIN-SUFFIX,console.tencentcloud.com
+DOMAIN-SUFFIX,intl.cloud.tencent.com
+DOMAIN-SUFFIX,us-west-2.tencentcloudapi.com
