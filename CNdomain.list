@@ -1,8 +1,70 @@
 # NAME: CN-domain
 # AUTHOR: LM4C
-# UPDATED: 2026-06-19
+# UPDATED: 2026-06-20 (新增中国主流银行直连域名，补充APP专用域名)
 
+# 腾讯云服务器
 IP-CIDR,43.172.73.168/32
 DOMAIN-SUFFIX,console.tencentcloud.com
 DOMAIN-SUFFIX,intl.cloud.tencent.com
 DOMAIN-SUFFIX,us-west-2.tencentcloudapi.com
+
+# -------------------------- 中国主流银行直连域名 --------------------------
+# 注：银行/支付类域名走代理极易触发风控、导致支付失败、登录异常或验证码收不到，强烈建议直连
+
+# 国有六大行
+DOMAIN-SUFFIX,icbc.com.cn       # 中国工商银行
+DOMAIN-SUFFIX,abchina.com       # 中国农业银行
+DOMAIN-SUFFIX,boc.cn            # 中国银行
+DOMAIN-SUFFIX,ccb.com           # 中国建设银行
+DOMAIN-SUFFIX,ccb.com.cn        # 中国建设银行备用域名
+DOMAIN-SUFFIX,bankcomm.com      # 交通银行
+DOMAIN-SUFFIX,psbc.com          # 中国邮政储蓄银行
+
+# 全国性股份制银行
+DOMAIN-SUFFIX,cmbchina.com      # 招商银行
+DOMAIN-SUFFIX,spdb.com.cn       # 浦发银行
+DOMAIN-SUFFIX,citic.com         # 中信银行
+DOMAIN-SUFFIX,cebbank.com       # 中国光大银行
+DOMAIN-SUFFIX,hxb.com.cn        # 华夏银行
+DOMAIN-SUFFIX,cmbc.com.cn       # 中国民生银行
+DOMAIN-SUFFIX,cib.com.cn        # 兴业银行
+DOMAIN-SUFFIX,cgbchina.com.cn   # 广发银行
+DOMAIN-SUFFIX,pingan.com        # 平安银行(含平安口袋银行)
+DOMAIN-SUFFIX,pingan.com.cn     # 平安银行备用域名
+DOMAIN-SUFFIX,czbank.com        # 浙商银行
+DOMAIN-SUFFIX,egbank.com        # 恒丰银行
+DOMAIN-SUFFIX,cbhb.com.cn       # 渤海银行
+
+# 政策性银行
+DOMAIN-SUFFIX,cdb.com.cn        # 国家开发银行
+DOMAIN-SUFFIX,eximbank.gov.cn   # 中国进出口银行
+DOMAIN-SUFFIX,adbc.com.cn       # 中国农业发展银行
+
+# 互联网银行
+DOMAIN-SUFFIX,webank.com        # 微众银行(微信支付相关)
+DOMAIN-SUFFIX,mybank.cn         # 网商银行(支付宝相关)
+DOMAIN-SUFFIX,xwbank.com        # 新网银行
+DOMAIN-SUFFIX,xinminbank.com    # 新民生银行
+
+# 主要城商行(高频使用)
+DOMAIN-SUFFIX,bankofbeijing.com # 北京银行
+DOMAIN-SUFFIX,bosc.cn           # 上海银行
+DOMAIN-SUFFIX,jsbchina.com      # 江苏银行
+DOMAIN-SUFFIX,nbcb.cn           # 宁波银行
+DOMAIN-SUFFIX,hzbank.com        # 杭州银行
+DOMAIN-SUFFIX,njcb.com.cn       # 南京银行
+DOMAIN-SUFFIX,gzcb.com          # 广州银行
+DOMAIN-SUFFIX,szbank.com        # 深圳农商银行
+
+# 支付清算机构(必加，否则绝大多数支付都会异常)
+DOMAIN-SUFFIX,unionpay.com      # 中国银联(所有银联支付)
+DOMAIN-SUFFIX,unionpayintl.com  # 银联国际
+DOMAIN-SUFFIX,95516.com         # 云闪付APP专用域名
+DOMAIN-SUFFIX,nucc.com          # 网联清算(所有第三方支付清算)
+DOMAIN-SUFFIX,pbc.gov.cn        # 中国人民银行
+
+# 第三方支付(必加)
+DOMAIN-SUFFIX,alipay.com        # 支付宝
+DOMAIN-SUFFIX,alipay.cn         # 支付宝备用域名
+DOMAIN-SUFFIX,wx.qq.com         # 微信支付
+DOMAIN-SUFFIX,wechatpay.cn      # 微信支付专用域名
