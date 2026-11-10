@@ -2,11 +2,12 @@
 # AUTHOR: LM4C
 # UPDATED: 2026-06-04
 
-DOMAIN-KEYWORD,gemini
-DOMAIN-KEYWORD,chatgpt
-DOMAIN-KEYWORD,claude
-DOMAIN-KEYWORD,anthropic
-DOMAIN-KEYWORD,pnc
-DOMAIN-KEYWORD,boa
-DOMAIN-KEYWORD,bofa
-DOMAIN-KEYWORD,bankofamerica
+# PNC
+DOMAIN-SUFFIX,pnc.com
+
+# Bank of America
+DOMAIN-SUFFIX,bankofamerica.com
+DOMAIN-SUFFIX,bofa.com
+
+# Bank of America 官网静态资源
+DOMAIN-SUFFIX,bac-assets.com
