@@ -1,5 +1,20 @@
 # NAME: HK-domain
 # AUTHOR: LM4C
-# UPDATED: 2026-06-04
+# UPDATED: 2026-11-16
 
 DOMAIN-SUFFIX,cathaypacific.com
+DOMAIN-SUFFIX,hsbc.com.hk
+DOMAIN-SUFFIX,bochk.com
+DOMAIN-SUFFIX,za.bank
+DOMAIN-SUFFIX,hangseng.com.hk
+DOMAIN-SUFFIX,standardchartered.com.hk
+DOMAIN-SUFFIX,dbs.com.hk
+DOMAIN-SUFFIX,hkbea.com
+DOMAIN-SUFFIX,dahsing.com
+DOMAIN-SUFFIX,cmbwinglungbank.com
+
+DOMAIN-SUFFIX,usmart.hk
+DOMAIN-SUFFIX,usmartglobal.com
+DOMAIN-SUFFIX,usmart66.com
+DOMAIN-SUFFIX,fosunwealth.com
+DOMAIN-SUFFIX,fosunhani.com
