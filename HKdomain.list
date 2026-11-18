@@ -3,6 +3,12 @@
 # UPDATED: 2026-11-16
 
 DOMAIN-SUFFIX,cathaypacific.com
+
+# 众安银行 品牌官网主域
+DOMAIN-SUFFIX,za.bank
+# 众安银行 后端业务主域（App交易、登录、风控、账单全量接口）
+DOMAIN-SUFFIX,za.group
+
 DOMAIN-SUFFIX,hsbc.com.hk
 DOMAIN,hsbc.edge.sdk.awswaf.com
 DOMAIN,c-hsbc.lytics.io
