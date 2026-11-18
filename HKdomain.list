@@ -20,3 +20,8 @@ DOMAIN-SUFFIX,usmartglobal.com
 DOMAIN-SUFFIX,usmart66.com
 DOMAIN-SUFFIX,fosunwealth.com
 DOMAIN-SUFFIX,fosunhani.com
+
+# CSL 香港移动运营商
+DOMAIN-SUFFIX,hkcsl.com
+# 1O1O（CSL 旗下高端品牌）
+DOMAIN-SUFFIX,1010.com.hk
