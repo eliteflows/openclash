@@ -1,7 +1,8 @@
 # NAME: HK-domain
 # AUTHOR: LM4C
-# UPDATED: 2026-11-16
+# UPDATED: 2026-11-19
 
+# 国泰航空
 DOMAIN-SUFFIX,cathaypacific.com
 
 # 众安银行 品牌官网主域
@@ -9,22 +10,41 @@ DOMAIN-SUFFIX,za.bank
 # 众安银行 后端业务主域（App交易、登录、风控、账单全量接口）
 DOMAIN-SUFFIX,za.group
 
+# 汇丰香港全业务主域名
 DOMAIN-SUFFIX,hsbc.com.hk
+# 汇丰 AWS WAF 安全校验SDK
 DOMAIN,hsbc.edge.sdk.awswaf.com
+# 汇丰 用户行为埋点统计
 DOMAIN,c-hsbc.lytics.io
+
+# 中银香港主域名
 DOMAIN-SUFFIX,bochk.com
+# 中银香港 电子单据服务
 DOMAIN,bochk02.etdsinfo.com
+
+# 恒生银行
 DOMAIN-SUFFIX,hangseng.com.hk
+# 渣打香港
 DOMAIN-SUFFIX,standardchartered.com.hk
+# 星展香港
 DOMAIN-SUFFIX,dbs.com.hk
+# 东亚银行
 DOMAIN-SUFFIX,hkbea.com
+# 大新银行
 DOMAIN-SUFFIX,dahsing.com
+# 招商永隆银行
 DOMAIN-SUFFIX,cmbwinglungbank.com
 
+# 盈立证券主站
 DOMAIN-SUFFIX,usmart.hk
+# 盈立证券全球站
 DOMAIN-SUFFIX,usmartglobal.com
+# 盈立证券活动站
 DOMAIN-SUFFIX,usmart66.com
+
+# 复星财富主域名
 DOMAIN-SUFFIX,fosunwealth.com
+# 复星恒利历史域名
 DOMAIN-SUFFIX,fosunhani.com
 
 # CSL 香港移动运营商
